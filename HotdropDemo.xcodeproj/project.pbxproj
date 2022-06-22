@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341349D428639424008845A7 /* CreatorDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341349D328639424008845A7 /* CreatorDetailsViewController.swift */; };
+		341349D62863AAD6008845A7 /* roundedlayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341349D52863AAD6008845A7 /* roundedlayers.swift */; };
 		34E710F128626BE10028DB94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E710F028626BE10028DB94 /* AppDelegate.swift */; };
 		34E710F328626BE10028DB94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E710F228626BE10028DB94 /* SceneDelegate.swift */; };
-		34E710F528626BE10028DB94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E710F428626BE10028DB94 /* ViewController.swift */; };
 		34E710F828626BE10028DB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E710F628626BE10028DB94 /* Main.storyboard */; };
 		34E710FA28626BE30028DB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34E710F928626BE30028DB94 /* Assets.xcassets */; };
 		34E710FD28626BE30028DB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34E710FB28626BE30028DB94 /* LaunchScreen.storyboard */; };
 		34E7110828626BE30028DB94 /* HotdropDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7110728626BE30028DB94 /* HotdropDemoTests.swift */; };
 		34E7111228626BE30028DB94 /* HotdropDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7111128626BE30028DB94 /* HotdropDemoUITests.swift */; };
 		34E7111428626BE30028DB94 /* HotdropDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7111328626BE30028DB94 /* HotdropDemoUITestsLaunchTests.swift */; };
+		34E7112228626D270028DB94 /* SDWebImageFLPlugin in Frameworks */ = {isa = PBXBuildFile; productRef = 34E7112128626D270028DB94 /* SDWebImageFLPlugin */; };
+		34E7112A286270CA0028DB94 /* Giphy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E71129286270CA0028DB94 /* Giphy.swift */; };
+		34E7112F2862744D0028DB94 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7112E2862744C0028DB94 /* APIService.swift */; };
+		34E71131286274A70028DB94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E71130286274A70028DB94 /* Constants.swift */; };
+		34E71133286279D20028DB94 /* GiphyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E71132286279D20028DB94 /* GiphyViewModel.swift */; };
+		34E7113528627B780028DB94 /* GiphyTableViewDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7113428627B770028DB94 /* GiphyTableViewDatasource.swift */; };
+		34E7113728627BC10028DB94 /* GiphyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7113628627BC10028DB94 /* GiphyViewController.swift */; };
+		34E7113C28627C390028DB94 /* GiphyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7113B28627C390028DB94 /* GiphyTableViewCell.swift */; };
+		34E7113F286381FF0028DB94 /* GihpyTapCellButtonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E7113E286381FF0028DB94 /* GihpyTapCellButtonProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		341349D328639424008845A7 /* CreatorDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorDetailsViewController.swift; sourceTree = "<group>"; };
+		341349D52863AAD6008845A7 /* roundedlayers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundedlayers.swift; sourceTree = "<group>"; };
 		34E710ED28626BE10028DB94 /* HotdropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HotdropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E710F028626BE10028DB94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34E710F228626BE10028DB94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34E710F428626BE10028DB94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34E710F728626BE10028DB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34E710F928626BE30028DB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34E710FC28626BE30028DB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,14 @@
 		34E7110D28626BE30028DB94 /* HotdropDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotdropDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E7111128626BE30028DB94 /* HotdropDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotdropDemoUITests.swift; sourceTree = "<group>"; };
 		34E7111328626BE30028DB94 /* HotdropDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotdropDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		34E71129286270CA0028DB94 /* Giphy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Giphy.swift; sourceTree = "<group>"; };
+		34E7112E2862744C0028DB94 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		34E71130286274A70028DB94 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		34E71132286279D20028DB94 /* GiphyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyViewModel.swift; sourceTree = "<group>"; };
+		34E7113428627B770028DB94 /* GiphyTableViewDatasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyTableViewDatasource.swift; sourceTree = "<group>"; };
+		34E7113628627BC10028DB94 /* GiphyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyViewController.swift; sourceTree = "<group>"; };
+		34E7113B28627C390028DB94 /* GiphyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyTableViewCell.swift; sourceTree = "<group>"; };
+		34E7113E286381FF0028DB94 /* GihpyTapCellButtonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GihpyTapCellButtonProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34E7112228626D270028DB94 /* SDWebImageFLPlugin in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,12 +119,14 @@
 		34E710EF28626BE10028DB94 /* HotdropDemo */ = {
 			isa = PBXGroup;
 			children = (
-				34E710F028626BE10028DB94 /* AppDelegate.swift */,
-				34E710F228626BE10028DB94 /* SceneDelegate.swift */,
-				34E710F428626BE10028DB94 /* ViewController.swift */,
-				34E710F628626BE10028DB94 /* Main.storyboard */,
-				34E710F928626BE30028DB94 /* Assets.xcassets */,
-				34E710FB28626BE30028DB94 /* LaunchScreen.storyboard */,
+				34E7113928627C120028DB94 /* Views */,
+				34E7112B2862741F0028DB94 /* Helpers */,
+				34E7112828626D7C0028DB94 /* Model */,
+				34E7112728626D760028DB94 /* ViewModels */,
+				34E7112628626D6F0028DB94 /* Controllers */,
+				34E7112328626D330028DB94 /* Delegate */,
+				34E7112428626D470028DB94 /* Storyboards */,
+				34E7112528626D560028DB94 /* Resources */,
 				34E710FE28626BE30028DB94 /* Info.plist */,
 			);
 			path = HotdropDemo;
@@ -127,6 +149,109 @@
 			path = HotdropDemoUITests;
 			sourceTree = "<group>";
 		};
+		34E7112328626D330028DB94 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				34E710F228626BE10028DB94 /* SceneDelegate.swift */,
+				34E710F028626BE10028DB94 /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		34E7112428626D470028DB94 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				34E710F628626BE10028DB94 /* Main.storyboard */,
+				34E710FB28626BE30028DB94 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		34E7112528626D560028DB94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34E710F928626BE30028DB94 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34E7112628626D6F0028DB94 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				34E7113628627BC10028DB94 /* GiphyViewController.swift */,
+				341349D328639424008845A7 /* CreatorDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		34E7112728626D760028DB94 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				34E71132286279D20028DB94 /* GiphyViewModel.swift */,
+				34E7113428627B770028DB94 /* GiphyTableViewDatasource.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		34E7112828626D7C0028DB94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34E71129286270CA0028DB94 /* Giphy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34E7112B2862741F0028DB94 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				341349D52863AAD6008845A7 /* roundedlayers.swift */,
+				34E7113D286381DA0028DB94 /* Protocol */,
+				34E7112D286274370028DB94 /* Constants */,
+				34E7112C2862742C0028DB94 /* WebServices */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		34E7112C2862742C0028DB94 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				34E7112E2862744C0028DB94 /* APIService.swift */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		34E7112D286274370028DB94 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				34E71130286274A70028DB94 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		34E7113928627C120028DB94 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34E7113A28627C1B0028DB94 /* TableViewCells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34E7113A28627C1B0028DB94 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				34E7113B28627C390028DB94 /* GiphyTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		34E7113D286381DA0028DB94 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				34E7113E286381FF0028DB94 /* GihpyTapCellButtonProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +268,9 @@
 			dependencies = (
 			);
 			name = HotdropDemo;
+			packageProductDependencies = (
+				34E7112128626D270028DB94 /* SDWebImageFLPlugin */,
+			);
 			productName = HotdropDemo;
 			productReference = 34E710ED28626BE10028DB94 /* HotdropDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +343,9 @@
 				Base,
 			);
 			mainGroup = 34E710E428626BE10028DB94;
+			packageReferences = (
+				34E7112028626D270028DB94 /* XCRemoteSwiftPackageReference "SDWebImageFLPlugin" */,
+			);
 			productRefGroup = 34E710EE28626BE10028DB94 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +389,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34E710F528626BE10028DB94 /* ViewController.swift in Sources */,
+				34E71131286274A70028DB94 /* Constants.swift in Sources */,
+				341349D428639424008845A7 /* CreatorDetailsViewController.swift in Sources */,
+				34E7112A286270CA0028DB94 /* Giphy.swift in Sources */,
+				34E71133286279D20028DB94 /* GiphyViewModel.swift in Sources */,
+				34E7112F2862744D0028DB94 /* APIService.swift in Sources */,
+				34E7113728627BC10028DB94 /* GiphyViewController.swift in Sources */,
 				34E710F128626BE10028DB94 /* AppDelegate.swift in Sources */,
+				341349D62863AAD6008845A7 /* roundedlayers.swift in Sources */,
 				34E710F328626BE10028DB94 /* SceneDelegate.swift in Sources */,
+				34E7113528627B780028DB94 /* GiphyTableViewDatasource.swift in Sources */,
+				34E7113F286381FF0028DB94 /* GihpyTapCellButtonProtocol.swift in Sources */,
+				34E7113C28627C390028DB94 /* GiphyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +758,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		34E7112028626D270028DB94 /* XCRemoteSwiftPackageReference "SDWebImageFLPlugin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageFLPlugin.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		34E7112128626D270028DB94 /* SDWebImageFLPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 34E7112028626D270028DB94 /* XCRemoteSwiftPackageReference "SDWebImageFLPlugin" */;
+			productName = SDWebImageFLPlugin;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 34E710E528626BE10028DB94 /* Project object */;
 }
